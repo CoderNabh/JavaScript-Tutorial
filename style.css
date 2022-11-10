@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+abbr{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 500;
+    padding-left: 5%;
+    background: #000;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    font-weight: 200;
+}
+button{
+    font-family: 'Merriweather', serif;
+    margin-left: 1%;
+    background: transparent;
+    padding: 10px;
+    padding-top: 10px;
+    width: 100px;
+    border-color: #008000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover{
+    background: #008000;
+    color: #fff; 
+}
